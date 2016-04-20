@@ -23,13 +23,15 @@
   },
   "devDependencies": {
     "doctoc": "^1.0.0",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-base": "^1.0.0",
+    "eslint-plugin-import": "^1.5.0",
     "mocha": "^2.3.4",
     "nock": "^7.7.2",
     "should": "^8.0.2"
   },
   "scripts": {
+    "clean-install": "rm -rf node_modules && npm i",
     "test": "mocha ",
     "lint": "eslint lib/**",
     "test-watch": "mocha --watch --reporter=spec",

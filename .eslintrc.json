@@ -1,10 +1,9 @@
 {
-  "extends": "airbnb/legacy",
+  "extends": "airbnb-base",
   "rules": {
-    "comma-dangle": 0,
-    "no-console": 0,
-    "func-names": 0,
+    "strict": 0,
     "no-param-reassign": 0,
-    "no-use-before-define": 0
+    "comma-dangle": 0,
+    "global-require": 0
   }
 }
