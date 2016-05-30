@@ -1,3 +1,5 @@
+if (typeof Buffer === 'undefined') global.Buffer = require('buffer').Buffer
+
 var appConfig = require('./lib/config');
 var utils = require('./lib/utils');
 
